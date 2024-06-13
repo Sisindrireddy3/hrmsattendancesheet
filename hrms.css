@@ -1,0 +1,80 @@
+.container{
+    height: 1000px;
+    width: 150%;
+    background-color: rgb(237, 245, 242);
+}
+.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    padding-top: 9px;
+    
+}
+.timesheet{
+    height: 400px;
+    width: 550px;
+    background-color: white;
+    
+    h3{
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+   
+}
+.time{
+    margin-left: 115px;
+    margin-top: -37px;
+}
+.punch{
+    height: 60px;
+    width: 500px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    
+    p{
+        margin-top: -10px;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+.hrs button {
+    height: 100px;
+    width: 100px;
+    border-radius: 300px;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+.punchout button{
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: red;
+    border: 0px;
+    margin-left: 180px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color: whitesmoke;
+    padding: 10px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+}
+
+.statistics{
+    height: 400px;
+    width: 550px;
+    background-color: aquamarine;
+
+}
+.griditems{
+    
+}
